@@ -1,9 +1,9 @@
 #' Calculates the coefficients of a multiple regression for different predictor combos.
 #'
-#' @input dat A dataset
-#' @input response_var An unquoted variable name
-#' @input pred_var_1 An unquoted variable name
-#' @input pred_var_2 An unquoted variable name
+#' @param dat A dataset
+#' @param response_var An unquoted variable name
+#' @param pred_var_1 An unquoted variable name
+#' @param pred_var_2 An unquoted variable name
 #'
 #' @return A data frame
 #'
@@ -37,8 +37,8 @@ make_betas <- function(dat, response_var, pred_var_1, pred_var_2) {
 
 #' Calculates the coefficients of a multiple regression using matrix decomposition
 #'
-#' @input y A n by 1 matrix of response variable values
-#' @input X A n by p matrix of predictor values
+#' @param y A n by 1 matrix of response variable values
+#' @param X A n by p matrix of predictor values
 #'
 #' @return A data frame of coefficient estimates
 #'

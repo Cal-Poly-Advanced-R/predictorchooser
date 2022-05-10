@@ -1,9 +1,9 @@
 
 #' Makes a basic scatterplot comparing a quantitative predictor to a response variable.
 #'
-#' @input dat A dataset
-#' @input response_var An unquoted variable name
-#' @input pred_var An unquoted variable name
+#' @param dat A dataset
+#' @param response_var An unquoted variable name
+#' @param pred_var An unquoted variable name
 #'
 #' @export
 viz_quant_pred <- function(dat, response_var, pred_var) {
@@ -18,9 +18,9 @@ viz_quant_pred <- function(dat, response_var, pred_var) {
 
 #' Makes a basic barplot comparing a categorical predictor to a response variable.
 #'
-#' @input dat A dataset
-#' @input response_var An unquoted variable name
-#' @input pred_var An unquoted variable name
+#' @param dat A dataset
+#' @param response_var An unquoted variable name
+#' @param pred_var An unquoted variable name
 #'
 #' @import ggplot2
 #' @export

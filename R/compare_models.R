@@ -1,9 +1,9 @@
 #' Compares test MSE between different sets of predictors
 #'
-#' @input dat A dataset
-#' @input response_var An unquoted variable name
-#' @input pred_var_1 An unquoted variable name
-#' @input pred_var_2 An unquoted variable name
+#' @param dat A dataset
+#' @param response_var An unquoted variable name
+#' @param pred_var_1 An unquoted variable name
+#' @param pred_var_2 An unquoted variable name
 #'
 #' @return A data frame
 #'
